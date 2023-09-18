@@ -1,19 +1,23 @@
 payload:
-- DOMAIN-SUFFIX,openai.com
-- DOMAIN-SUFFIX,sentry.io
-- DOMAIN-SUFFIX,pay.openai.com
-- DOMAIN-SUFFIX,identrust.com
-- DOMAIN,openaiapi-site.azureedge.net
-- DOMAIN-SUFFIX,chat.openai.com
-- DOMAIN-SUFFIX,challenges.cloudflare.com
-- DOMAIN-SUFFIX,auth0.openai.com
-- DOMAIN-SUFFIX,platform.openai.com
-# Add ai.com
-- DOMAIN-SUFFIX,ai.com
-# Add stripe.com
-- DOMAIN-SUFFIX,invoice.stripe.com
-- DOMAIN-SUFFIX,stripe.com
-#add poe.com
-- DOMAIN-SUFFIX,poe.com
-#add bard.google.com
-- DOMAIN-SUFFIX,bard.google.com
+# Bing
+- DOMAIN-SUFFIX,msxiaobing.com,Microsoft
+- DOMAIN-SUFFIX,bing.com,Microsoft
+- DOMAIN-SUFFIX,bing123.com,Microsoft
+- DOMAIN-SUFFIX,bing135.com,Microsoft
+- DOMAIN-SUFFIX,bing4.com,Microsoft
+- DOMAIN-SUFFIX,bing.com.bo,Microsoft
+- DOMAIN-SUFFIX,bing.com.co,Microsoft
+- DOMAIN-SUFFIX,bing.com.cy,Microsoft
+- DOMAIN-SUFFIX,bing.com.gt,Microsoft
+- DOMAIN-SUFFIX,bing.jp,Microsoft
+- DOMAIN-SUFFIX,bing.cn,Microsoft
+- DOMAIN-SUFFIX,bing.net,Microsoft
+- DOMAIN-SUFFIX,bingapis.com,Microsoft
+- DOMAIN-SUFFIX,bingforbusiness.com,Microsoft
+
+# OpenAI (ChatGPT)
+- DOMAIN-SUFFIX,chat.openai.com,OpenAI
+- DOMAIN-SUFFIX,auth0.openai.com,OpenAI
+- DOMAIN-SUFFIX,cdn.openai.com,OpenAI
+- DOMAIN-SUFFIX,openai.com,OpenAI
+- DOMAIN-SUFFIX,client.crisp.chat,OpenAI
